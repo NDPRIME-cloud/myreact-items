@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
-
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
 .card {
   padding: 2em;
 }
@@ -71,4 +76,42 @@ input{
   max-width: 400px;
   cursor: default;
   animation: fadeIn 0.3s ease-out; /* ✨ pop-in effect */
+}
+/* for styled form  */
+.rule{
+  display: flex;
+  gap: 6px;
+}
+.s-main-input{
+  display: flex;
+}
+.s-main-input input{
+  border: none;
+  border-bottom: 1px solid rgb(70, 201, 201);
+  border-radius: 0px;
+  outline: none;
+  color: #fff;
+}
+.strength{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+}
+.case-holder div{
+margin-bottom: 10px;
+}
+.backcolor{
+  background-color:rgb(91, 77, 77);
+  padding: 30px;
+  border-radius: 10px;
+    box-shadow: 0 18px 26px rgba(0, 0, 0, 0.5);
+
+}
+p, h2{
+  color: white;
+
+}
+label{
+  color: #fff;
 }

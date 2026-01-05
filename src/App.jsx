@@ -15,6 +15,7 @@ import Button from './components/Button'
 import NotFound from './pages/NotFound'
 import OtpGenerator from './components/OtpGenerator'
 import { useState } from 'react'
+import StyledForm from './components/StyledForm'
 function App() {
   const [btn, setBtn ] = useState(false)
  
@@ -42,7 +43,8 @@ function App() {
   {/* <OtpGenerator/>
    */}
 
-   <Form/>
+   {/* <Form/> */}
+   <StyledForm/>
  
  
 
